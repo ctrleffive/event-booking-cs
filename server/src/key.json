@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ctrleffive",
+  "private_key_id": "6b53b01e01f5d5cf4f6e83b7660445174eabbbfa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDENGbZQXG4hX8z\nJ/6z/7Gxj54Bjdk0kbxoUZXfywk0+bwqTJVBF/27HEtBqAE4sKDJQe22091H019I\n6zZmH0khMyHhfVT/Pi2rDPOp/FXOtKc6nr77haQwu4jN6BOsky4sl+tMOL+ROEIi\npSslLZIsuVMchawlY4A+K5+0VOR12pOelFBOL3vVuMBdaDyBY0HlToE77UxsxU+a\nzUhonMSiW5UjYfX4dhLNd1FDENfzgQCWLlMLa9qA80cTXh40QENfsQfODtc6mHGh\nbLvU8B1okoEtiQx7Rx8MxHYtZgUvf8yjvmORUhHr1ydsPZb6WUKsEpbtmo4IBVJ+\nGP4UXzQlAgMBAAECggEAAMeZdn84x9XFClU8MBy6YGjTdiZRyeF1LdiL0bCu1B3l\nz0r0jMAawZZLbiG60NifX7+AjjqJxXl2/dY5Lq8sz1IyuucZCHihSLIYcnRy8z6R\niY528Eq9Ov6c2qkmzUNlIfIIeKO0KIOtJs3kwgg7Byzv5FBKeUUHdFWoxy1xc6Pn\nF7i7cfrc7xA5yfYPMfc0MO4/POyinXcgoqlOzJD2xyLvjKbnw9HlDQmcxNQF9usO\npxbINC0xcLyi4P4SSQyJxdy58tpYBTuG5GjxSXkg6k/0qp9SzKsUO9rBpUb/njvZ\nduRZariyNaunZK433y1+p6m2KDi7JyuC5jdEf6roswKBgQD+fmwoQHCtwPSen03J\nOG5IQISNTHxaP2eMlC54KBH6mmwdaq2t6dKkUyE4att5HcoqQ238IM8W2IwkxRMq\nvVEtfwC/4LBkG2qOaZyDY3anN/zsJQaIBmzqq9thjDX4Yn2eunmOxEyjVxmqyO/i\n6TbeU2JWbL7nYcxk5Jtu3pTA5wKBgQDFXaqyFaJAmtGDsVe7kyPOr7pat6Jqn8aU\nR6amkQ0v1Y+TY1P3Q7F76bX/Hb7Unsb0MW1RWqy8x8ADLsm+fq0jks4FkFqcCXEQ\n7Elb6c7tMCdxquhVFcltKWHB3M+f2u7hybwOwn2WMevaendDv9ee8NIcuSDxa4p6\n3AFL+QClEwKBgEm1CdQ6naflO7P5RYki2+X3MazO2zE0LeRsQm0whcyEDw4SCI1X\nLFfFb9isMjaI5zWIZAFi6zedrjE0FtIJFMrNfsUT6WKFAj6O3fK7yvCxaYJnUtXw\nrnjlH1vIRRVUSTfAoFY2ClBAeMGbAsdAblDD67ZGNqBDFfSetVnOA10/AoGAWa7a\nZdnWxKyVD9aCG0YdO0o20Aopz3GS9sYoQAAhkd7lQwAbo3wrJjdo7+hAUrVjior7\nNcCSRaYu5kNYgStm2YdX/sc9pTHVIu971jxEPxtmkQwsTp17zhLDzSfdYLJHYmoc\n/kf6cUl19u03TJ3cCOk9ULf+9DT91B4sqK0ZUekCgYBVL2oW+8bSFzX/wUseyCDT\nQkflwdnw1cZq2TfxHyZz79lLthqB/O5Y8Lf8mSchC/fnu6XG09KT/ZDo4JFlG31Q\nDEFAZrP9SqKC4sh3BOIZh2rXVsgdspzy5ErwI/MUbIkbM7r+e3ycktSSMfgHuyVZ\n4y8lTK0MymEpqF2AqRR+bw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "events-booking-cs@ctrleffive.iam.gserviceaccount.com",
+  "client_id": "112026057732579511726",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/events-booking-cs%40ctrleffive.iam.gserviceaccount.com"
+}
