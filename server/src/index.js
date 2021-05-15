@@ -6,7 +6,7 @@ const MomentRange = require('moment-range')
 
 const moment = MomentRange.extendMoment(Moment)
 
-const privatekey = require('./key.json')
+const privatekey = require('./service-key.json')
 const PORT = process.env.PORT || 3001
 const calendarId = 'chandujs@live.com'
 
