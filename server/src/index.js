@@ -1,10 +1,13 @@
 const google = require('googleapis')
 const path = require('path')
+const cors = require('cors')
 const express = require('express')
 const Moment = require('moment')
 const MomentRange = require('moment-range')
 
 const moment = MomentRange.extendMoment(Moment)
+
+const clientPath = '../../client/build'
 
 const privatekey = require('./service-key.json')
 const PORT = process.env.PORT || 3001
@@ -22,11 +25,12 @@ const jwtClient = new google.Auth.JWT(
 
 jwtClient.authorize()
 
+app.use(cors())
 app.use(express.urlencoded({extended: true}));
 app.use(express.json())
-app.use(express.static(path.resolve(__dirname, '../../client/build')))
+app.use(express.static(path.resolve(__dirname, clientPath)))
 app.get('/', (_req, res) => {
-  res.sendFile(path.resolve(__dirname, '../../client/build', 'index.html'))
+  res.sendFile(path.resolve(__dirname, clientPath, 'index.html'))
 })
 
 app.post('/slots', async (req, res) => {
@@ -78,11 +82,11 @@ app.post('/slots', async (req, res) => {
 
     return res.json(freeSlots)
   } catch (error) {
-    return res.json({ error: true })
+    return res.json({ error })
   }
 })
 
-app.get('/add', async (req, res) => {
+app.post('/add', async (req, res) => {
   try {
     // {
     //   summary: 'A new dynamic event!',
