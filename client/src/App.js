@@ -12,7 +12,7 @@ import {
   Row,
 } from 'react-bootstrap'
 
-const API_ENDPOINT = 'http://localhost:3001'
+const API_ENDPOINT = ''
 
 const App = () => {
   const [date, setDate] = useState(moment().format('DD-MM-YYYY'))
